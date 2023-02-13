@@ -101,12 +101,20 @@ button i {
         flex-direction: column;
         height: 95%;
         width: 85%;
+        position: relative;
+        /* padding-bottom: 50px; */
     }
 
     .chanel {
         border-radius: 10px 10px 0 0;
         content: url("./images/image-product-mobile.jpg");
         width: 100%;
+    }
+
+    .content_texts {
+        position: relative;
+        bottom: 5px;
+        padding: 10px 30px;
     }
 
     .pre_header {
@@ -122,5 +130,19 @@ button i {
 
     .description {
         margin-bottom: 5px;
-    }    
+    }  
+    
+    .price {
+        /* position: relative; */
+        /* bottom: 30px; */
+        /* margin-bottom: 8px; */
+    }
+
+    button {
+        position: absolute;
+        bottom: -25px;
+        /* margin-bottom: 20px; */
+        padding: 10px 0;
+        width: 80%;
+    }
 }
